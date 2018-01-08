@@ -1,0 +1,11 @@
+.listItem {
+  /* background-color: #3346FF;
+  color: lightgreen;
+  font-family: papyrus;
+  text-transform: uppercase;
+  margin-top: 100%; */
+  width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
