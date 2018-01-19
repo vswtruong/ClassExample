@@ -11,33 +11,59 @@
     <title>academy</title>
   </head>
   <style>
+  #celebrityName {
+    text-align: center;
+    color: darkblue;
+  }
+
+  table, th, td {
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #seagalPic, #seagalVideo {
+    width: 854px;
+    height: 480px;
+  }
+
   .displayClass{
     display: none;
   }
 
+  .centerClass{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+  }
+
+  body {
+    background-color: lightblue;
+  }
+
   </style>
   <body>
-    <h2>Stephen Seagal</h2>
+    <h2 id="celebrityName">Steven Seagal</h2>
     <div><button class="centerClass" id="trivia">Play Trivia</button></div>
     <center><img id="seagalPic" src="http://cdn.newsapi.com.au/image/v1/0be7befc1e4becfa62fe7cd34657601d"/></center>
-    <iframe width="854" id="seagalVideo" class="displayClass" height="480" src="https://www.youtube.com/embed/7EAuLL9n42s" frameborder="0" allowfullscreen></iframe>
+    <center><iframe id="seagalVideo" class="displayClass" src="https://www.youtube.com/embed/7EAuLL9n42s" frameborder="0" allowfullscreen></iframe></center>
     <button class="centerClass" id="videoButton">Picture Video Toggle</button>
     <center><h4 id="link"><a href="https://en.wikipedia.org/wiki/Steven_Seagal">your celebrity on Wikipedia</h4></a></center>
     <table id="movieTable">
 
-  <tr>
-    <th>Movie Title</th>
-    <th>Year</th>
-  </tr>
-  <tr>
-    <td>Under Siege</td>
-    <td>1991</td>
-  </tr>
-  <tr>
-    <td>The Glimmer Man</td>
-    <td>1998</td>
-
-  </tr>
+      <tr>
+        <th>Movie Title</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>Under Siege</td>
+        <td>1991</td>
+      </tr>
+      <tr>
+        <td>The Glimmer Man</td>
+        <td>1998</td>
+      </tr>
 
     </table>
     <input class="centerClass" id="titleInput" placeholder="title"></input>
